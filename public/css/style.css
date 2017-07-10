@@ -1,0 +1,60 @@
+.welcome-wrapper-one {
+    height: 50vh;
+    padding-top: 10vh;
+    background: #64C693;
+    background: -webkit-linear-gradient(left top, #64C693, #53F7A3);
+    background: -o-linear-gradient(bottom right, #64C693, #53F7A3);
+    background: -moz-linear-gradient(bottom right, #64C693, #53F7A3);
+    background: linear-gradient(to bottom right, #64C693, #53F7A3);
+}
+
+.welcome-wrapper-one h1 {
+    text-align: center;
+    color: white;
+}
+
+.welcome-wrapper-one h2 {
+    text-align: center;
+    color: white;
+}
+
+#welcome-buttons {
+    text-align: center;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#welcome-buttons li {
+    display: inline;
+    font-size: 2.5em;
+    margin: 10px;
+}
+
+#welcome-buttons li button {
+    border-radius: 10px;
+    border: none;
+}
+
+#welcome-buttons li button:last-child {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    padding: 7px;
+}
+
+#welcome-buttons li button:last-child:hover {
+    background-color: white;
+    color: #53F7A3;
+    border: 3px solid #53F7A3;
+}
+
+
+.welcome-wrapper-two {
+    height: 50vh;
+
+}
+
+.welcome-wrapper-two h1 {
+    text-align: center;
+    padding-top: 10vh;
+}

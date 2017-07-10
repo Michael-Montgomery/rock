@@ -1,0 +1,26 @@
+* {
+    font-family: Avenir
+}
+
+.header {
+    height: 70px;
+}
+
+.header nav {
+    line-height: 70px;
+    text-align: center;
+}
+
+.header nav a {
+    color: white;
+    font-size: 2em;
+}
+
+.header nav a:first-child {
+    float: left;
+}
+
+.header nav a:nth-child(5) {
+    display: none;
+}
+
