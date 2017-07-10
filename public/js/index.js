@@ -1,7 +1,8 @@
 var app = angular.module('rock', [
     'ngRoute',
-    'rock.welcome'
-])
+    'rock.welcome',
+    'rock.new'
+]);
 
 app.config(function($routeProvider) {
     $routeProvider.when('/', {
@@ -17,7 +18,7 @@ app.config(function($routeProvider) {
 
     $routeProvider.when('/newrock', {
         templateUrl: 'public/views/templates/newrock.tpl.html',
-        controller: 'newrockController'
+        controller: 'newController'
     });
 
 })

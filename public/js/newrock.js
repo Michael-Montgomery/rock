@@ -1,5 +1,5 @@
-var app = angular.module('newrock', []);
+var app = angular.module('rock.new', []);
 
-app.controller('newrockController', function($scope) {
+app.controller('newController', function($scope) {
 
 })

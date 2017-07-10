@@ -51,10 +51,15 @@
 
 .welcome-wrapper-two {
     height: 50vh;
+    padding: 10vh 150px;
 
 }
 
 .welcome-wrapper-two h1 {
     text-align: center;
-    padding-top: 10vh;
+    font-size: 4em;
+}
+
+.welcome-wrapper-two p {
+    font-size: 2em;
 }
